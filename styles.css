@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app-container{
+    background-color: aqua;
+    height:100vh;
+}
+
+#header{
+    background-color:#c4974d;
+    height:2.5rem;
+    font-size:1.15em;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+#d-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#d-img{
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+#download-img{
+    width:18px;
+    height:18px;
+}
+
+/* media queries for all the smart phones */
+@media only screen and (max-width: 420px) { 
+  #download{
+    display:none;
+  }
+  #header{
+    font-size: 0.95em;
+  }
+}
+
